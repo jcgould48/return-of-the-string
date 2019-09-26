@@ -25,12 +25,12 @@ return str[x]+str[y];
 
 function initials(str) {
   const num = str.indexOf(' ')
-  return capitalize(str[0]+'.'+str[num+1]+'.')
+  return capitalize(str[0]+'.'+str[num+1]+'.');
 }
 
 function yeller(str) {
  
-  return capitalize(str) +'!!!';
+  return exclaim(exclaim(exclaim(capitalize(str))));
 }
 
 
